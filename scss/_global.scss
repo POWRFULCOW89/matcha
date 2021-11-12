@@ -1,0 +1,22 @@
+/** _global.scss */
+$primary: #025157;
+$secondary: #67b54b;
+$background: #ffffff;
+
+/** fuentes */
+$font-title: "Alegreya", serif;
+
+/** placeholders */
+%base-title {
+    font-family: $font-title;
+    color: $primary;
+    font-weight: bolder;
+    font-size: 30px;
+}
+  
+%secondary-cta-button {
+    background-color: $primary;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

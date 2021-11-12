@@ -1,0 +1,26 @@
+{
+  "name": "santander-front-pc89",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx -p parcel parcel build index.html "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/POWRFULCOW89/santander-front.git"
+  },
+  "author": "POWRFULCOW89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/POWRFULCOW89/santander-front/issues"
+  },
+  "homepage": "https://github.com/POWRFULCOW89/santander-front#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1"
+  }
+}
